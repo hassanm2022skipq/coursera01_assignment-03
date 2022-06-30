@@ -25,13 +25,19 @@ nav.bg-dark, .row > .bg-dark{
     .navbar-nav > .nav-item, .navbar-toggler-icon, .navbar-toggler{
         visibility: hidden;
     }
+    .btn-top{
+        display: none;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .navbar-nav > .nav-item, .navbar-toggler-icon, .navbar-toggler{
         visibility: hidden;
-    }   
+    }  
+    .btn-top{
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -39,13 +45,18 @@ nav.bg-dark, .row > .bg-dark{
     .navbar-nav > .nav-item{
         visibility: hidden;
     }
+
+    .btn-top{
+        display: none;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .navbar-nav > .nav-item{
+    .navbar-nav > .nav-item, .btn-top{
         visibility: hidden;
     }
+
 }
 
 @media (min-width: 992px) {
